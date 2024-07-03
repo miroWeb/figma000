@@ -1,0 +1,639 @@
+.container {
+    max-width: 1340px;
+    height: 100%;
+    border: 1px solid red;
+    margin: 0 auto;
+    background-image: url(.//Background.png);
+padding: 20px 100px;
+border: 10px;
+box-shadow: 1px 1px 10px black;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    padding: 20px 90px;
+    
+}
+ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    position: relative;
+    left: -50px;   
+}
+li {
+    list-style: none;
+    position: relative;
+    left: 0px;
+    color: #000000;
+}
+
+.a11{
+    display: none;
+    
+}
+.a1 {
+display: flex;
+gap: 20px;
+align-items: center;
+position: relative;
+left: -40px;
+
+}
+.a2 {
+    position: relative;
+    left: 80px;
+}
+.a3 {
+    position: relative;
+    left: 80px;
+}
+.img {
+    display: grid;
+    grid-template-columns: repeat(2, 290px);
+}
+.df {
+    display: flex;
+    gap: 180px;
+}
+.a4 {
+    position: relative;
+    top: 60px;
+}
+.a5 {
+    position: relative;
+ margin-top: 80px;
+}
+.a6 {
+    position: relative;
+    left: 80px;
+    top: 30px;
+}
+.a7 {
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.a8 {
+    position: relative;
+    top: -200px;
+    display: flex;
+    gap: 75px;
+    left: 80px;
+}
+.icon {
+    display: none;
+    color: red;
+    /* color: white; */
+}
+
+.btn {
+    width: 180px;
+    height: 60px;
+    background-color: rgb(111, 39, 245);
+    border: 10px;
+    border-radius: 5px;
+}
+
+
+.dropbtn {
+    display: none;
+}
+.dropbtn {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(144, 144, 144);
+    text-align: center;
+    border-radius: 5px;
+
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 100px;
+    height: 90px;
+  
+    /* box-shadow: 0px 12px 16px 0px(83, 83, 83, 0.2); */
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #000000;
+  }
+
+  .con {
+    margin-bottom: 4000px;
+  }
+  .a4:hover {
+box-shadow: 1px 1px 30px  rgb(176, 15, 198);
+transform: scale(1.15);
+transition: all 1s;
+border-radius: 20px;
+}
+.a5:hover {
+box-shadow: 1px 1px 30px rgb(253, 3, 3);
+transform: scale(1.15);
+transition: all 1s;
+border-radius: 20px;
+}
+ 
+.a05:hover {
+box-shadow: 1px 1px 30px rgb(255, 123, 0);
+transform: scale(1.15);
+transition: all 1s;
+border-radius: 20px;
+}
+
+    .a5:hover {
+box-shadow: 1px 1px 30px rgb(181, 29, 29);
+transform: scale(1.15);
+transition: all 1s;
+border-radius: 20px;
+}
+               
+
+.a10:hover {
+box-shadow: 1px 1px 30px rgb(4, 184, 255);
+transform: scale(1.15);
+transition: all 1s;
+border-radius: 20px;
+}
+ .btn:hover {
+    background-color:rgb(110, 43, 226);
+ }
+ .a6:hover {
+    background-color: rgb(110, 43, 226);
+    border-radius: 10px;
+   
+    
+ }
+ .a7:hover {
+    background-color:rgb(110, 43, 226);
+    border-radius: 10px;
+
+ }
+
+/* ///   Media  /// */
+
+
+@media screen and (max-width: 1400px) {
+    .df {
+flex-direction: column;
+    }
+    .img {
+        position: relative;
+        top: -170px;
+    }
+    .df {
+        display: flex;
+        align-items: center;
+       }
+ 
+       .img {
+        display: grid;
+        grid-template-columns: repeat(4, 290px);
+        margin-top: -80px;
+      }
+      .past {
+position: relative;
+left:-10px;
+      }
+      
+.a4 {
+    position: relative;
+    top: 0px;
+}
+.a5 {
+    position: relative;
+ margin-top: -1px;
+
+}
+.img {
+   text-align: center;
+}
+.a6 {
+    position: relative;
+    top: 380px;
+    margin-left: -16px;
+ }
+.a7 {
+    position: relative;
+    top: 380px;
+    left: 117px;
+} 
+.a8 {
+     position: relative;
+    top: -20px;
+    left: 10px;
+     display: flex;
+     justify-content: center;
+}
+
+.a4:hover {
+   
+    background-color: red;
+}
+
+
+}
+@media screen and (max-width: 1245px) {
+   
+    .a6 {
+        position: relative;
+        top: 750px;
+        margin-left: 5px;
+        
+    }
+    .a7 {
+        position: relative;
+        top: 750px;
+        left: 116px;
+    }
+    
+    .img {
+        position: relative;
+        left: 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 290px);
+      }
+      ul {
+        display: none;
+      }
+.icon {
+    position: relative;
+    top: -14px;
+    left: 10px;
+}
+.icon {
+    display: block;
+    position: relative;
+    left: -3px;
+
+}
+.dropbtn {
+    display: block;
+}
+.a10 {
+
+    margin-left: 30px;
+}
+.dropbtn {
+    display:block;
+}
+.bi-list {
+    position: relative;
+left: -10px;
+}
+
+}
+
+@media screen and (max-width: 999px){
+ 
+  .btn {
+    position: relative;
+    left: 80px;
+    width: 100px;
+    height: 40px;
+  } 
+  .nabar {
+    position: relative;
+    left: -50px;
+  } 
+  .a9 {
+    display: none;
+  }
+  .img {
+    grid-template-columns: repeat(2, 290px);
+}
+.icon {
+  position: relative;
+  left: 0px;  
+  z-index: 1;
+}
+
+.a12 {
+    position: relative;
+    left: 60px;
+}
+.dropbtn {
+    position: relative;
+    left: 100px;
+    color: black;
+}
+.dropdown-content {
+    margin-left: 80px;
+    margin-top: 10px;
+}.a12 {
+    position: relative;
+    left: -20px;
+}
+.btn {
+    position: relative;
+    left: 200px;
+}
+.dropbtn {
+    position: relative;
+    left: 220px;
+}
+}
+@media screen and (max-width: 700px) {
+   .a12 {
+    position: relative;
+    left: -20px;
+   }
+   .btn {
+    position: relative;
+    left: 150px;
+   }
+   .dropbtn {
+    position: relative;
+    left: 110px;
+   }
+   .a2 {
+    width: 400px;
+    position: relative;
+    left: 50px;
+   }
+   .a3 {
+    width: 400px;
+    position: relative;
+    left: 50px;
+   }
+   .a4 {
+  width: 200px;
+  position: relative;
+  left: 30px;
+   }
+   .a05 {
+    width: 200px;
+    position: relative;
+    left: -30px;
+    
+   }
+.a5 {
+    width: 200px;
+     position: relative;
+  left: 30px;
+  top: -16px;
+}
+.a10 {
+    width: 200px;
+    position: relative;
+    top: -20px;
+   
+    left: -45px;
+}
+.dropbtn {
+    position: relative;
+    left: 180px;
+}
+.dropdown-content {
+    margin-left: 150px;
+    margin-top: 10px;
+
+
+}
+.dfl {
+    position: relative;
+   top: -120px;
+   left: -50px;
+}
+.a8 {
+    position: relative;
+    left: 35px;
+}
+}
+@media screen and (max-width: 550px) {
+    .box{
+        display: flex;justify-content: center;
+    }
+.dropdown-content {
+   margin-left: 150px;
+   margin-top: 10px;
+}
+.img {
+    grid-template-columns: repeat(1, 250px);
+}
+.a4 {
+    width: 300px;
+    position: relative;
+    left: -3px;
+    top: -30px;
+}
+.a05 {
+
+    width: 300px;
+    position: relative;
+    left: -4px;
+    top: -40px;
+
+}
+.a5 {
+    width: 300px;
+    position: relative;
+    left: -5px;
+    top: -67px;
+
+}
+.a10 {
+    width: 300px;
+    position: relative;
+    margin-left: 42px;
+    top: -75px;
+}
+.a6 {
+    position: relative;
+    top: 1720px;
+    left: 65px;
+    
+}
+.dfl {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left: -8px;
+    top: 30px;
+}
+.a7 {
+    position: relative;
+    top: 1720px;
+    left: 65px;
+}
+.a08 {
+width: 80px;
+position: relative;
+left: 40px;
+top: -30px;
+
+}
+.a2 {
+    width: 350px;
+    position: relative;
+ text-align: center;
+    left: 70px;
+}
+.a3 {
+    width: 350px;
+    position: relative;
+    left: 70px;
+}
+.img {
+   margin-top: 1px;
+}
+}
+@media screen  and (max-width: 420px){
+    .a2 {
+        width: 300px;
+    }
+    .a3 {
+        width: 300px;
+    }
+    .a4 {
+        width: 250px;
+    }
+    .a05 {
+        width: 250px;
+    }
+    .a5 {
+        width: 250px;
+    }
+    .a10 {
+        width: 250px;
+    }
+    .dfl {
+        position: relative;
+        top: -230px;
+        left: 10px;
+    }
+    .a8 {
+        position: relative;
+        left: 10px;
+    }
+    .img {
+        position: relative;
+        left: 55px;
+       
+    }
+    .a6 {
+        width: 130px;
+    }
+    .a7 {
+        width: 130px;
+    }
+    .a08 {
+        width: 60px;
+        position: relative;
+     left: 46px;
+        top: -90px;
+    }
+    .a12 {
+        position: relative;
+        left: -50px;
+    }
+    .btn {
+        display: none;
+    }
+    .dropbtn {
+        position: relative;
+        left: 220px;
+    }
+    .icon {
+        position: relative;
+        left: -3px;
+        top: 0,1px;
+    }
+    .dropdown-content {
+      margin-left: -45px;
+      margin-top: 10PX;
+    }
+}
+@media screen and (max-width: 390px) {
+    .a2 {
+        width: 250px;
+        position: relative;
+        left: 85px;
+        top: -20px;
+    }
+    .a3 {
+        width: 230px;
+        position: relative;
+        left: 86px;
+        top: -20px;
+
+    }
+    .a4 {
+        width: 200px;
+       
+      
+    }
+    .a05 {
+        width: 200px;
+        
+    }
+    .a5 {
+        width: 200px;
+      position: relative;
+      top: -50px;
+    }
+    .a10 {
+        width: 200px;
+       margin-left: 65px;
+       position: relative;
+       top: -60px;
+    }
+    .img {
+        position: relative;
+        top: -200px;
+    }
+    .dfl {
+        position: relative;
+        top: -520px;
+        left: -10px;
+    }
+    .a8 {
+        position: relative;
+        top: -70px;
+    }
+    .dropbtn {
+       margin-left: -60px;
+    }
+.a08 {
+    width: 50px;
+  margin-left: -30px;
+}
+.a8 {
+   margin-left: +20px;
+   
+}
+}
